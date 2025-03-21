@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(29, 33, 50);
+}
+
+.nazar{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+}
+
+nav ul{
+    padding-right: 15%;
+    list-style-type: none;
+    display: flex;
+    gap: 28px;
+}
+
+.logo{
+    color: #fff;
+    user-select: none;
+    font-size: 33px;
+    letter-spacing: 0.5px;
+}
+
+nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.nazar button{
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn1{
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.btn2{
+    font-weight: 500;
+    background: rgb(35, 165, 247);
+    border: none;
+    color: #fff;
+}
+
+.nazr{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+}
+
+.text .welc{
+    color: rgb(35, 165, 247);
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 17px;
+}
+
+.text .bigone{
+    color: #fff;
+    font-weight: bold;
+    font-size: 70px;
+    letter-spacing: 0.5px;
+}
+
+.text .desc{
+    padding-top: 15px;
+    color: #fff;
+}
+
+.nazr button{
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 25px;   
+}
+
+.btn3{
+    padding: 14px;
+    width: 220px;
+    font-weight: 500;
+    background: rgb(35, 165, 247);
+    border: none;
+    color: #fff;
+    margin-right: 4px;
+}
+
+.btn4{
+    padding: 14px;
+    width: 190px;
+    font-weight: 500;
+    background: transparent;
+    border: 1px #23a5f7 solid;
+    color: #23a5f7;
+    margin-left: 4px;
+}
+
+.pics .img1{
+    width: 340px;
+    height: 290px;
+    position: absolute;
+    top: 60%;
+    left: 165%;
+    border: 3px #fff solid;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.pics .img2{
+    width: 380px;
+    height: 460px;
+    position: absolute;
+    top: -8%;
+    left: 190%;
+    border-radius: 5px;
+}
+
+.pics .blankimg{
+    display: block;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: -15%;
+    left: 240%;
+    border-radius: 5px;
+    z-index: -1;
+    color: rgb(0, 0, 0);
+}
